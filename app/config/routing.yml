@@ -1,3 +1,11 @@
+information_information:
+    resource: "@InformationBundle/Controller/InformationController.php"
+    type:     annotation
+
+information:
+    resource: "@InformationBundle/Resources/config/routing.yml"
+    prefix:   /
+
 user:
     resource: "@UserBundle/Resources/config/routing.yml"
     prefix:   /
